@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>PHOTO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans&family=Noto+Sans+JP:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
   <h1>Photo</h1>
-  <nav>
+  <!-- ナビゲーション、リストメニュー -->
+  <nav class="header-nav">
     <ul>
       <li><a href="#news">News</a></li>
       <li><a href="#about">About</a></li>
@@ -19,13 +23,15 @@
     </ul>
   </nav>
 </header>
+<!-- キービジュアル、 -->
 <section class="kv">
-  <div class="kv-content">
+  <div class="kv-content"> 
   <strong>タイトル</strong>
   <p>text text text text text text 
   text text text text text text </p>
   </div>
 </section>
+<!-- コンテナ、 -->
 <div class="container">
   <section class="news" id="news">
     <h2 class="title">
@@ -43,7 +49,7 @@
             <div class="data">
               <span>2023.01.01</span>
               <span>news</span>
-            </div>
+          </div>
             <p>タイトルタイトルタイトルタイトル</p>
             <div class="news-content">
               <div class="data">
@@ -51,9 +57,10 @@
                 <span>news</span>
               </div>
               <p>タイトルタイトルタイトルタイトル</p>
-      </div>
+       </div>
     </div>
   </section>
+  <!-- 画像場面 -->
     <section class="about" id="aboout">
       <div class="content">
       <h2 class="title">
@@ -90,7 +97,7 @@
     </section>
   </div>
   <footer>
-    <small>&copy; 2023</small>
+    <span>&copy; 2023</span>
   </footer>
 </body>
 </html>
