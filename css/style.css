@@ -101,13 +101,23 @@ header h1{
   padding-left: 40px;
   padding-right: 40px;
 }
-.news-list div:first-of-type{
+.news-list > div:first-of-type{
   padding-left: 0;
   border-right: solid 1px #707070;
-
 }
-.news-list div:last-of-type{
+.news-list > div:last-of-type{
   padding-right: 0;
   border-left: solid 1px #707070;
 }
-
+.data{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.data span:first-of-type{
+  padding-right: 16px;
+}
+.data span:last-of-type{
+  background-color: #333333;
+  color: #fff;
+  padding:  0 5px;
+}
