@@ -121,3 +121,34 @@ header h1{
   color: #fff;
   padding:  0 5px;
 }
+/* about */
+.about{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.about .content{
+  width: 40%;
+}
+.about > p{
+  width: 55%;
+}
+.about > p img{
+  width: 100%;
+}
+/* studio */
+.studio{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  flex-direction: row-reverse;
+}
+.studio .content{
+  width: 40%;
+}
+.studio > p{
+  width: 55%;
+}
+.studio > p img{
+  width: 100%;
+}
