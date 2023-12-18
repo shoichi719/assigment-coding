@@ -161,7 +161,7 @@ header h1{
 .company .content{
   width: 55%;
   padding: 100px 8% 100px 6%; 
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 .company > p{
   width: 50%;
@@ -231,7 +231,7 @@ footer span{
     margin-bottom: 80px;
     gap: 40px 0;
   }
-  .about.content, .about . p{
+  .about.content, .about > p{
     width: 100%;
   }
   /* studio */
