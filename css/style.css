@@ -2,6 +2,7 @@ body{
   font-family: 'Dancing Script', cursive;
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Noto Sans JP', sans-serif;
+background-color: #f0f0f0;
 }
 p{
   font-size: 16px;
@@ -77,7 +78,7 @@ header h1{
 .kv-content{
   width: 388px;
   padding: 20px;
-  border-color:  rgba(0,0,0, .57);
+  background-color: rgba(0,0,0, .57);
   color: #fff;
   position: absolute;
   bottom: 40px;
@@ -151,4 +152,107 @@ header h1{
 }
 .studio > p img{
   width: 100%;
+}
+/* company */
+.company{
+  position: relative;
+  margin-bottom: 120px;
+}
+.company .content{
+  width: 55%;
+  padding: 100px 8% 100px 6%; 
+  background-color: #f0f0f0;
+}
+.company > p{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+.company > p img{
+  width: 100%;
+}
+footer{
+  height: 100px;
+  background-color: #fff;
+}
+footer span{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+@media screen and (max-width: 900px){
+  /* header */
+  header{
+    height: 80px;
+    padding: 0 20px;
+    gap: 0;
+    flex-wrap: wrap;
+    align-items: unset;
+  }
+  header nav{
+    width: 100%;
+  }
+  .kv{
+    height: calc(100vh - 80px);
+    background-position: center;
+    margin-bottom: 80px;
+  }
+  .kv-content{
+    width: calc(100% - 40px);
+    right: 50%;
+    transform: translate(50%);
+  }
+/* news */
+  .news{
+    margin-bottom: 80px;
+  }
+  .news-list{
+    flex-wrap: wrap;
+    gap: 40px 0;
+  }
+  .news-content{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .news-list > div:first-of-type{
+    border-right: transparent;
+  }
+  .news-list > div:last-of-type{
+    border-left: transparent;
+  }
+  /* about */
+  .about{
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    gap: 40px 0;
+  }
+  .about.content, .about . p{
+    width: 100%;
+  }
+  /* studio */
+  .studio{
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+  .studio .content, .studio > p{
+    width: 100%;
+  }
+  /* company */
+  .company{
+    margin-bottom: 80px;
+  }
+  .company .content{
+    width: 100%;
+    padding: 80px 20px;
+  }
+  .company > p{
+    width: 100%;
+    position: static;
+    transform: none;
+  }
 }
